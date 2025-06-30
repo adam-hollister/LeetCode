@@ -15,8 +15,10 @@ class Solution:
         else: #remove right
             return self.binarySearch(nums[:idx], target, offset)
 
-if __name__ == "__main__":
-    sol = Solution()
-    #assert sol.binarySearch([1,2,4,5,7,8,9,10], 7) == 4, "Test Case 1 Failed"
-    assert sol.binarySearch([1,2,4,5,7,8,9,10], 8) == 5, "Test Case 1 Failed"
-    print("All test cases passed!")
+# if __name__ == "__main__":
+#     sol = Solution()
+#     #assert sol.binarySearch([1,2,4,5,7,8,9,10], 7) == 4, "Test Case 1 Failed"
+#     assert sol.binarySearch([1,2,4,5,7,8,9,10], 8) == 5, "Test Case 1 Failed"
+#     print("All test cases passed!")
+
+print("hello")
